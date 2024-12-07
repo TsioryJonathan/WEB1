@@ -1,0 +1,458 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+.main {
+    width: 100%;
+    background: linear-gradient(to top , #000);
+    background-image: url(image/resto2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    
+}
+ul{
+    list-style: none;
+}
+.navbar{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo img{
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 30%;
+    transition: all 0.5s ease-in-out;
+    
+}
+
+.logo img:hover{
+    transform: scale(1.1);
+}
+
+.navbar .brand{
+    padding-left: 20px;
+    padding-top: 20px;
+
+    span{
+        color: #b74b4b;
+        font-size: 35px;
+    }
+    
+}
+
+.navbar .brand a {
+    text-decoration: none;
+    font-size: 30px;
+    color: #ffffff;
+    transition:  all 0.5s ease-in-out;
+    border: none;
+    
+    
+}
+.navbar .brand a:hover{
+    color: white;
+}
+.nav-element{
+    padding-left: 200px;
+   
+
+}
+.nav-element ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    font-size: 23px;
+    font-family: Arial;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.nav-element ul a{
+    text-decoration: none;
+    color:white;
+    transition: 0.4s ease-in-out;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+
+.nav-element ul a:hover
+{
+    color:#fc587c;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.nav-element ul .active{
+    color: #b74b4b;
+    border-bottom: 5px solid #b74b4b;
+       
+}
+.nav-element ul .active:hover {
+    color: #fff;
+    
+}
+
+.header-content{
+    width: 800px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.header-content h1{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-family:'Dancing Script';
+}
+
+
+.header-content span{
+    font-size: 70px;
+    color: #fc587c;
+    font-weight: bold;
+}
+
+.header-content p{
+    margin-left: 15px;
+    font-size: 20px;
+    color: white;
+    font-style: italic;
+    padding-top: 20px;
+
+}
+
+.button{
+    display: flex;
+    padding-top: 50px;
+    padding-left: 200px;
+    width: 600px;
+    gap: 30px;
+}
+
+
+
+.btn{
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+    border: white solid 1px;
+    border-radius: 10px;
+    font-size: 20px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    color: #fff;
+    
+}
+
+
+
+.btn:hover{
+    transform: scale(1.1);
+    background-color: #b74b4b;
+}
+
+
+
+.other-content{
+    background-color: #fff;
+    margin-top: 0;
+
+}
+
+.chef {
+    display: flex;
+    height: 109vh;
+    
+    border-bottom: 1px solid black;
+}
+.text{
+    width: 1200px;
+    padding-right: 30px;
+    background-color: rgb(207, 193, 193);
+    padding-left: 20px;
+}
+
+.text p{
+    text-align: justify;
+    font-size: 1.5rem;
+    padding-top: 20px;
+    line-height: 40px;
+    
+}
+.text h1 {
+    padding-top: 50px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS';
+    font-size: 50px;
+    font-weight: 1200;
+    color: #000; ;
+    font-style: italic;
+    text-align: center;
+
+}
+
+.chef-img{
+    background-image: url(image/chef.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+.plus-btn-chef{
+    width: 150px;
+    height: 60px;
+    margin-top: 20px;
+    background-color: transparent;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    transition: all 0.4s ease;
+    font-style: italic;
+    cursor: pointer;
+    margin-left: 200px;
+}
+
+.plus-btn-chef a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.plus-btn-chef:hover{
+    transform: scale(1.1);
+    
+    
+
+    a{
+        color: #000000;;
+    }
+    
+    
+
+}
+
+.speciality{
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+
+
+
+
+.speciality h1{
+    padding-top: 10px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS';
+    font-size: 50px;
+    font-weight: 1200;
+    color: #000; ;
+    font-style: italic;
+    text-align: center;
+
+}
+
+.speciality p{
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 20px;
+    text-align: justify;
+    font-size: 20px;
+    font-family: unset;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+
+}
+
+
+
+.container{
+    padding-top: 50px;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px ;
+    padding-left: 80px;
+}
+
+.container .spec{
+    border-radius: 10%;
+    background-color: #ffeef6;
+    transition: all 0.4s ease-in-out;
+    margin-bottom: 20px;
+    height: 500px;
+    box-shadow: 0 0  20px 0px rgba(0,0,0,0.5);
+}
+
+.container .spec img{
+    padding-top: 30px;
+    border-radius: 30px 30px 30px 30px;
+    transition: all 0.5s ease;
+}
+
+.container .spec h4{
+    font-size: 30px;
+    font-weight: 300;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.container .spec img:hover{
+    transform: scale(1.05);
+
+}
+
+.description {
+    background-color: #ffeef6;
+    margin-top: 20px;
+    width: 350px;
+    height: 100px;
+    border-radius: 10%;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 10px;
+    
+    
+}
+.description p{
+    text-align: center;
+}
+
+.description h4{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.plus-btn{
+    width: 150px;
+    height: 60px;
+    margin-top: 20px;
+    background-color: transparent;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    transition: all 0.4s ease;
+    font-style: italic;
+    cursor: pointer;
+}
+
+.plus-btn a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.plus-btn:hover{
+    transform: scale(1.1);
+    
+    
+
+    a{
+        color: #000000;;
+    }
+    
+    
+
+}
+
+footer{
+    width: 100%;
+    background-image: url(image/resto2.jpg);
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    margin-top: 30px;
+    
+}
+
+
+.footer-content{
+    display: flex;
+    gap: 400px;
+    justify-content: center;
+    height: 100%;
+    padding: 20px;
+   backdrop-filter: blur(5px);
+}
+
+.principal-info{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    h4{
+        color: #c53636;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    p{
+        color: white;
+    }
+
+    ul li {
+        color: white;
+        line-height: 30px;
+    }
+}
+
+.other-info{
+    h4{
+        color:  #c53636;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    ul{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 1.2rem;
+        transition: all .3s ease-in-out;
+
+    }
+
+    ul li a:hover{
+        color: #b74b4b;
+        transform: scale(1.5)
+    }
+}
+
+.social-links{
+    height: 100%;
+    padding-right: 50px;
+
+    ul{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+
+        li a{
+            color: white;
+            font-size: 2rem;
+            transition: all 0.3s ease-in-out;
+        }
+
+        li a:hover{
+            font-size: 2.1rem;
+        }
+
+    }
+}
